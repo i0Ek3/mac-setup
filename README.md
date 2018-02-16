@@ -1,5 +1,14 @@
 # Merci for original author @sb2nov,this project really awesome,I fork it and will add something in it with my habits,enjoy yourself!
 
+## Use Command Let Your Mac Become More Productivity
+```Shell
+$ defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1 && killall Finder  # open AirDrop
+$ defaults write com.apple.dock springboard-columns -int 8; defaults write com.apple.dock springboard-rows -int 7; defaults write com.apple.dock ResetLaunchPad -bool TRUE; killall Dock # modify your launchpad arrange,visit [more](https://sspai.com/post/41695)
+
+```
+
+
+
 # Original README.md follows...
 
 [macOS Setup Guide](http://sourabhbajaj.com/mac-setup) [![Build Status](https://travis-ci.org/sb2nov/mac-setup.svg?branch=master)](https://travis-ci.org/sb2nov/mac-setup)
