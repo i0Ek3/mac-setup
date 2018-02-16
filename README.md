@@ -1,3 +1,7 @@
+# Merci for original author @sb2nov,this project really awesome,I fork it and will add something in it with my habits,enjoy yourself!
+
+# Original README.md follows...
+
 [macOS Setup Guide](http://sourabhbajaj.com/mac-setup) [![Build Status](https://travis-ci.org/sb2nov/mac-setup.svg?branch=master)](https://travis-ci.org/sb2nov/mac-setup)
 ====================
 
