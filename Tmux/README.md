@@ -1,6 +1,6 @@
 # Tmux
 
-Tmux is really awesome reuse tools for developers and others.
+Tmux is really awesome reuse tool for developers and others.
 ```Shell
 $ brew install tmux
 ```
