@@ -4,8 +4,10 @@
 ```Shell
 $ defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1 && killall Finder  # open AirDrop
 $ defaults write com.apple.dock springboard-columns -int 8; defaults write com.apple.dock springboard-rows -int 7; defaults write com.apple.dock ResetLaunchPad -bool TRUE; killall Dock # modify your launchpad arrange,visit [more](https://sspai.com/post/41695)
-$ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE #disable generate .DS_store files
-$ defaults write com.apple.finder QuitMenuItem -bool YES; killall Finder #show quit button on finder
+$ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE # disable generate .DS_store files
+$ defaults write com.apple.finder QuitMenuItem -bool YES; killall Finder # show quit button on finder
+$ sudo spctl --master-disable # download form anywhere
+$ defaults write com.apple.finder AppleShowAllFiles -bool true;KillAll Finder # show hiden files
 ```
 
 
