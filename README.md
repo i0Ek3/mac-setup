@@ -8,6 +8,7 @@ $ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE #
 $ defaults write com.apple.finder QuitMenuItem -bool YES; killall Finder # show quit button on finder
 $ sudo spctl --master-disable # download form anywhere
 $ defaults write com.apple.finder AppleShowAllFiles -bool true;KillAll Finder # show hiden files
+$ defaults write com.apple.desktopservices DSDontWriteNetworkStores true # abandon generate .DS_Store files
 ```
 
 
