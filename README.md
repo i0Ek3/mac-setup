@@ -9,7 +9,7 @@ $ defaults write com.apple.finder QuitMenuItem -bool YES; killall Finder # show 
 $ sudo spctl --master-disable # download form anywhere
 $ defaults write com.apple.finder AppleShowAllFiles -bool true;KillAll Finder # show hiden files
 $ defaults write com.apple.desktopservices DSDontWriteNetworkStores true # abandon generate .DS_Store files
-$ defaults write NSGlobalDomain AppleShowAllExtensions -bool true #to show all the expand name of files
+
 
 
 ```
